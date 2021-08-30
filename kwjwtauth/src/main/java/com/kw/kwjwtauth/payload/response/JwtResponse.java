@@ -13,7 +13,7 @@ import java.util.Set;
 public class JwtResponse {
 
     private String token;
-    private String type;
+    private String type = "Basic";
     private Long id;
     private String username;
     private String email;
